@@ -1,57 +1,46 @@
 body
+{   
+    color:red;
+    text-align:center;
+    font-family:Arial;
+    font-size:16px;
+    margin:0;
+    padding:0
+}
 
-{
+#cabecera{
+    background:#33a;
+    box-shadow:0 2px 20px 0 rgba(0,0,0,.5);
+    color:#fff;
+    font-weight:700;
+    margin:0;
+    padding:.5em
 
-color:blue;
-text-align: center;
-font-family:  sans-serif;
-font-size: 16 px;
+
+}
+
+#cabecera #tagline{
+    padding:0 0 0 1em;
+    font-weight:400;
+    font-size:.8em
 
 }
 
 #container
-
 {
-
-    width: 70%;
-    padding:1em;
-    text-align: left;
-    border: 1px solid rgb(6, 95, 67);
-    margin: 0 auto;
+    width:70%;
+    padding:0;
+    text-align:left;
+    border:1px solid #ddd;
+    margin:0 auto
 
 }
-
-#container h1 
-
+#container h1
 {
-
-font-size: 20 px;
+    font-size:20px
 
 }
-
-#cabecera
-{
-
-    background: cadetblue;
-    box-shadow: 0px 2px 20px rgba(0, 0,0,0.5) ;
-    color:white;
-    font-weight: bold;
-    margin: 0;
-    padding: 0.5 em;
-}
-
 #post
 {
-
-    padding: 1em;
-}
-
-#cabecera #tagline
-{
-
-    padding: 0 0 0 1em;
-    font-weight: normal;
-    font-size: 0.8 em;
-
-
+    padding:1em
 }
